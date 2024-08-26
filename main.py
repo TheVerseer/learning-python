@@ -22,7 +22,7 @@ while True:
 		ch = msvcrt.getch()
 		if ch == b'\r' or ch == b'\n':
 			break
-		elif ch == b'\x1b':  # ESC key
+		elif ch == b'\x1b':
 			exit = True
 			break
 
