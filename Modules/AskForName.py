@@ -17,5 +17,4 @@ def askForName():
             finished = True
             for name in namelist:
                 print("Hi,", name)
-            print()
             namelist = []
