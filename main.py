@@ -15,6 +15,6 @@ while True:
 		if option == "1":
 			askForName()
 		elif option == "2":
-			createTaskList()
+			taskList()
 
 	input("\nPress 'Enter' or 'Return' to go back")

@@ -5,7 +5,7 @@ def askForName():
 
     clearScreen()
     while True:
-        option: str = input("1: add name\n2: say hi\n\ninput: ")
+        option: str = input("1: add name\n2: say hi\n\noption: ")
         print()
         if option.isdigit and option == "1":
             name = input("name: ")
