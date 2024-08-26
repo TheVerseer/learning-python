@@ -22,6 +22,7 @@ def createTaskList():
 		clearScreen()
 		for task in tasklist:
 			print(f"{task[0]} :: {task[1]}")
+		print("\n\n")
 
 	def handleOp4():
 		source: str = ""
