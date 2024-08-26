@@ -1,10 +1,5 @@
 @echo off
-python -m pip --version
-IF %ERRORLEVEL% NEQ 0 (
-    echo Pip is not installed, installing pip...
-    python -m ensurepip --upgrade
-)
-
+REM python -m pip --version
 python -m pip install -r requirements.txt
 
 py main.main.py
