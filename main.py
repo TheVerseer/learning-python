@@ -1,7 +1,7 @@
 from library.askforname import *
 from library.clearscreen import *
 
-from main.functions import *
+from utility.functions import *
 
 while True:
 	clearScreen()
