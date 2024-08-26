@@ -4,6 +4,8 @@ from library.askforname import *
 from library.tasklist import *
 from utility.functions import *
 
+createFile("bin")
+
 while True:
 	clearScreen()
 
