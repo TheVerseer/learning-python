@@ -8,7 +8,7 @@ while True:
 	exit: bool = False
 	clearScreen()
 
-	inputString: str = "Select a Module:\n\n1: AskForName\n" + "\nModule: "
+	inputString: str = "Select a Module:\n\n1: AskForName\n2: TaskList" + "\n\nModule: "
 	option: str = input(inputString)
 	
 	if option.isdigit():
