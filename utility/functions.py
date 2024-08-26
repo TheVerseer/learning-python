@@ -8,6 +8,6 @@ def clearScreen():
     else:
         print("Unsupported OS")
 
-def createFile(name: str = "Untitled.txt", source: str = "Hello world?"):
+def createFile(name: str = "Untitled.txt"):
     with open(name, "w") as file:
-        file.write(source)
+        return file
