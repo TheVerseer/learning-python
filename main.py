@@ -5,7 +5,6 @@ from library.tasklist import *
 from utility.functions import *
 
 while True:
-	exit: bool = False
 	clearScreen()
 
 	inputString: str = "Select a Module:\n\n1: AskForName\n2: TaskList" + "\n\nModule: "
