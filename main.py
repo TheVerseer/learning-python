@@ -16,7 +16,7 @@ while True:
 		if option == "1":
 			askForName()
 
-	print("\nPress 'Enter' or 'Return' to go back \nPress 'Esc' to exit")
+	print("\nPress 'Enter' or 'Return' to go back \nPress 'Esc' and 'Enter' to exit")
 
 	while True:
 		ch = msvcrt.getch()
