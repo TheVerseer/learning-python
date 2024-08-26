@@ -1,10 +1,9 @@
-from math import fabs
+import keyboard
+
 from library.askforname import *
 from library.clearscreen import *
 
 from utility.functions import *
-
-import keyboard
 
 while True:
 	exit: bool = False
