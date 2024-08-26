@@ -1,6 +1,8 @@
 from modules.askforname import *
 from modules.clearscreen import *
 
+from main.functions import *
+
 while True:
 	clearScreen()
 
@@ -11,5 +13,4 @@ while True:
 		if option == "1":
 			askForName()
 
-	input("\nPress 'Enter' or 'Return' to go back \nPress 'Esc' to exit\n")
-	
+	print("\nPress 'Enter' or 'Return' to go back \nPress 'Esc' to exit")
