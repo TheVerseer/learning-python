@@ -1,5 +1,5 @@
-from modules.askforname import *
-from modules.clearscreen import *
+from library.askforname import *
+from library.clearscreen import *
 
 from main.functions import *
 
