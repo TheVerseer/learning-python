@@ -1,4 +1,4 @@
-from library.clearscreen import *
+from utility.functions import *
 
 def askForName():
     namelist: list = []
