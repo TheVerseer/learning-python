@@ -10,3 +10,5 @@ while True:
 	if option.isdigit():
 		if option == "1":
 			askForName()
+
+	input("\n")
