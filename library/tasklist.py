@@ -30,7 +30,7 @@ def createTaskList():
 		for task in tasklist:
 			source + f"{task[0]}:\n		{task[1]}"
    
-		file = createFile("TaskList.txt")
+		file = createFile("bin\TaskList.txt")
 		file.write(source)
 		file.close()
 
