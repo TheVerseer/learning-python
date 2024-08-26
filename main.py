@@ -11,4 +11,5 @@ while True:
 		if option == "1":
 			askForName()
 
-	input("\nPress 'Enter' or 'Return' to continue")
+	input("\nPress 'Enter' or 'Return' to go back \nPress 'Esc' to exit\n")
+	
