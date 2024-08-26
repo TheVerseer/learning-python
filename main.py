@@ -6,7 +6,8 @@ from library.calculator import *
 
 from utility.functions import *
 
-os.makedirs("bin")
+if not checkFileExists("bin"):
+	os.makedirs("bin")
 
 while True:
 	clearScreen()

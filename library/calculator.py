@@ -1,3 +1,5 @@
+from utility.functions import *
+
 def add(x, y):
     return x + y
 
@@ -14,6 +16,8 @@ def divide(x, y):
 
 
 def calculator():
+    clearScreen()
+    
     num1 = float(input("Enter first number: "))
     num2 = float(input("Enter second number: "))
     operation = input("Enter operation (+, -, *, /): ")
