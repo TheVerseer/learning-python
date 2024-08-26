@@ -1,4 +1,4 @@
-import keyboard
+import msvcrt
 
 from library.askforname import *
 from library.clearscreen import *
@@ -17,11 +17,12 @@ while True:
 			askForName()
 
 	print("\nPress 'Enter' or 'Return' to go back \nPress 'Esc' to exit")
+
 	while True:
-		if keyboard.is_pressed('enter'):
-			exit = False
+		ch = msvcrt.getch()
+		if ch == b'\r' or ch == b'\n':
 			break
-		elif keyboard.is_pressed('esc'):
+		elif ch == b'\x1b':  # ESC key
 			exit = True
 			break
 
