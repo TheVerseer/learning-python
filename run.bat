@@ -9,5 +9,6 @@ IF %ERRORLEVEL% NEQ 0 (
 
 python -m pip install -r requirements.txt
 
-py main.main.py
+cd main
+py main.py
 pause >nul
