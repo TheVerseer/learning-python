@@ -22,7 +22,7 @@ def taskList():
 	def handleOp3():
 		clearScreen()
 		for task in allTasks:
-			print(f"{task[0]} :: {task[1]}")
+			print(f"{task[0]}: {task[1]}")
 		print("\n")
 
 	def handleOp4():
