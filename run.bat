@@ -2,8 +2,8 @@
 
 python -m pip install -r requirements.txt
 
-set PYTHONPATH=%PYTHONPATH%;%~dp0
+set PYTHONPATH=%PYTHONPATH%;%~dp0/main
 
-py main/main.py
+py main.py
 
 pause >nul
