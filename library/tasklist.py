@@ -44,7 +44,6 @@ def taskList():
 				listname = givenInput
 		else:
 			option: str = input("1: add task\n2: remove task\n3: list tasks\n4: load .txt\n\noption: ")
-			print()
 			if option.isdigit and option == "1":
 				handleOp1()
 			elif option.isdigit and option == "2":

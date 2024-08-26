@@ -1,40 +1,30 @@
+def add(x, y):
+    return x + y
 
-def add(nums):
-  sum = 0
-  for n in nums:
-    sum+=n
-  return sum
+def subtract(x, y):
+    return x - y
 
-def sub(nums):
-  sum = 0
-  for n in nums:
-    sum-=n
-  return sum
+def multiply(x, y):
+    return x * y
 
-def div(nums):
-  sum = 0
-  for n in nums:
-    sum/=n
-  return sum
+def divide(x, y):
+    if y == 0:
+        return "Error! Division by zero."
+    return x / y
 
-def mul(nums):
-  sum = 0
-  for n in nums:
-    sum*=n
-  return sum
 
 def calculator():
-	numbers = input("numbers (seperate with ','):")
-	operator = input("operator to apply")
-  
-	numbers = numbers.replace(" ", "").split(",")
-  
-  
-	if operator[1] == "+":
-		print(f"sum: {add(numbers)}")
-	elif operator[1] == "-":
-		print(f"sum: {sub(numbers)}")
-	elif operator[1] == "/":
-		print(f"sum: {div(numbers)}")
-	elif operator[1] == "*":
-		print(f"sum: {mul(numbers)}")
+    num1 = float(input("Enter first number: "))
+    num2 = float(input("Enter second number: "))
+    operation = input("Enter operation (+, -, *, /): ")
+
+    if operation == '+':
+        print("Result:", add(num1, num2))
+    elif operation == '-':
+        print("Result:", subtract(num1, num2))
+    elif operation == '*':
+        print("Result:", multiply(num1, num2))
+    elif operation == '/':
+        print("Result:", divide(num1, num2))
+    else:
+        print("Invalid operation")
