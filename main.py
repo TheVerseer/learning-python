@@ -1,5 +1,5 @@
-from Modules.AskForName import *
-from Modules.ClearScreen import *
+from modules.askforname import *
+from modules.clearscreen import *
 
 inputString: str = "Select a Module:\n\n1: AskForName\n" + "\nModule: "
 option: str = input(inputString)

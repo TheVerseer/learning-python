@@ -1,4 +1,4 @@
-from Modules.ClearScreen import *
+from modules.clearscreen import *
 
 def askForName():
     namelist: list = []
@@ -6,12 +6,12 @@ def askForName():
     finished: bool = False
 
     print()
-    clear_screen()
+    clearScreen()
     while not finished:
         option: str = input("1: add name\n2: say hi\n\ninput: ")
         if option.isdigit and option == "1":
             name = input("name: ")
-            print("└── added "+name)
+            print(f"└── added {name}")
             namelist.insert(1, name)
             print()
         elif option.isdigit and option == "2":
