@@ -7,9 +7,6 @@ from library.shutdown import *
 
 from utility.functions import *
 
-#if not checkFileExists("bin"):
-	#os.makedirs("bin")
-
 while True:
 	clearScreen()
 
