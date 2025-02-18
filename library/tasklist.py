@@ -31,13 +31,15 @@ def taskList():
 		for task in allTasks:
 			source = f"{source}{task[0]}:\n  {task[1]}\n\n"
 
-		createFile(f"bin/{listname}.txt", source)
+		#createFile(f"bin/{listname}.txt", source)
+		createFile(f"{listname}.txt", source)
 
 	clearScreen()
 	while True:
 		if listname == "":
 			givenInput = input("list name: ")
-			if checkFileExists(f"bin/{givenInput}.txt"):
+			#if checkFileExists(f"bin/{givenInput}.txt"):
+			if checkFileExists(f"{givenInput}.txt"):
 				print(f"'{givenInput}.txt' already exists, try a different name")
 			else:
 				print(f"'{givenInput}' list created\n")
